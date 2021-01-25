@@ -1,0 +1,24 @@
+.contacts {
+  background-color: $background-color;
+  padding: 60px 0;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-address-item {
+  :not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-address .contacts-map {
+  color: $primary-white-color;
+}
+
+.footer-address .email,
+.footer-address .phone {
+  color: $logo-footer-color;
+}

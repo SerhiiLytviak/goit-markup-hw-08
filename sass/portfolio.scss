@@ -1,0 +1,24 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+//base
+@import './base/common';
+@import './base/container';
+
+//components
+@import './components/section';
+@import './components/button';
+@import './components/footer-form-button';
+@import './components/logo';
+@import './components/site-nav';
+@import './components/address_nav';
+@import './components/footer-contacts';
+@import './components/social_links_join';
+
+//layout
+@import './layout/header';
+@import './layout/footer';
+@import './layout/categories';
+@import './layout/projects';
+@import './components/logo-footer';
+@import './components/footer-form';

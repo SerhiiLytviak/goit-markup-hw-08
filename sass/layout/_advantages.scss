@@ -1,0 +1,33 @@
+.advatnages {
+  display: flex;
+  margin-left: -30px;
+}
+
+.advantages-item {
+  margin-left: 30px;
+  flex-basis: calc(100% / 4 - 30px);
+}
+
+.advantages-item .section-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.advantages-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.advantages-img {
+  background-color: $secondary-background-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+}

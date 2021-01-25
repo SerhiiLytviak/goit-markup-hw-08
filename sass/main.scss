@@ -1,0 +1,33 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+//base
+@import './base/common';
+@import './base/container';
+
+//components
+@import './components/section';
+@import './components/button';
+@import './components/button-hero';
+@import './components/modal-form-button';
+@import './components/footer-form-button';
+@import './components/social-links-team';
+@import './components/logo';
+@import './components/site-nav';
+@import './components/address_nav';
+@import './components/footer-contacts';
+@import './components/social_links_join';
+
+//layout
+@import './layout/header';
+@import './layout/hero';
+@import './layout/advantages';
+@import './layout/gallery';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/modal';
+@import './layout/categories';
+@import './layout/projects';
+@import './components/logo-footer';
+@import './components/footer-form';
